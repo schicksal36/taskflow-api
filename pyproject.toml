@@ -19,7 +19,7 @@ dependencies = [
     "django-allauth>=65.18.0",           # 소셜/일반 회원가입 및 계정 관리 확장
     # --- 데이터베이스 ---
     "psycopg2-binary>=2.9",              # PostgreSQL 데이터베이스 연동 드라이버
-    "mysqlclient>=2.2",                  # MySQL 데이터베이스 연동 드라이버
+
     # --- 파일 처리 및 데이터 분석/리포트 ---
     "pillow>=10.4",                      # 이미지 파일 처리 및 썸네일 생성 등
     "openpyxl>=3.1",                     # Excel(xlsx) 파일 읽기/쓰기 지원

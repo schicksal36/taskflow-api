@@ -9,7 +9,7 @@ def main():
 
     # 로컬에서 manage.py를 실행하면 개발 설정을 기본으로 사용합니다.
     # 이미 DJANGO_SETTINGS_MODULE이 외부에서 지정된 경우에는 그 값을 존중합니다.
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings.dev")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings.local")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
